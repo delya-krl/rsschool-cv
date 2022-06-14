@@ -1,8 +1,5 @@
-li {
+li, footer {
     font-size: 20px;
-}
-ol {
-    width: 60%;
 }
 a {
     color: black;
@@ -11,6 +8,35 @@ a {
 a:active, a:hover{
     color: blue;
 }
-img {
+.foto {
     width: 20%;
+    margin-right: 40px;
+    float: left;
+    clear: both;
+}
+.background {
+    background-color: rgb(250, 235, 217);
+    border: dashed 2px;
+    border-radius: 4px;
+    margin: 20px 50px 0px 50px;
+    padding: 20px;
+}
+p {
+    display: inline;   
+}
+.logo {
+    width: 5%;
+}
+footer a,p,img {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+footer {
+    background-color: rgb(247, 245, 242);
+    padding: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+
 }
