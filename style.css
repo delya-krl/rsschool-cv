@@ -1,36 +1,44 @@
-li, footer {
-    font-size: 20px;
-}
 a {
     color: black;
     text-decoration: none;
 }
 a:active, a:hover{
-    color: blue;
+    color: gray;
 }
 .foto {
     width: 20%;
-    margin-right: 40px;
+    padding: 0 40px 0 0;
     float: left;
-    clear: both;
+    
 }
 .background {
-    background-color: rgb(250, 235, 217);
-    border: dashed 2px;
+    background-color: rgb(250, 245, 239);
     border-radius: 4px;
     margin: 20px 50px 0px 50px;
     padding: 20px;
+    font-size: 40px;
 }
 p {
     display: inline;   
 }
+ol>li {
+    padding-top: 40px;
+}
+li:first-of-type {
+    clear: both;
+}
 .logo {
     width: 5%;
+}
+h2 {
+    border-bottom: inset rgb(161, 161, 161) 5px;
+}
+h2:hover {
+    border-bottom: inset lightgray 8px;
 }
 footer a,p,img {
     margin-left: 20px;
     margin-right: 20px;
-    
 }
 footer {
     background-color: rgb(247, 245, 242);
@@ -38,5 +46,5 @@ footer {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-
+    font-size: 20px;
 }
