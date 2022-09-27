@@ -1,4 +1,3 @@
-![foto](/img/0606.jpg)
 # Angela Korol
 1. ### Contacts for communication: 
     * e-mail: delya-krl@rambler.ru
