@@ -9,7 +9,6 @@ a:active, a:hover{
     width: 20%;
     padding: 0 40px 0 0;
     float: left;
-    
 }
 .background {
     background-color: rgb(250, 245, 239);
@@ -19,7 +18,7 @@ a:active, a:hover{
     font-size: 40px;
 }
 p {
-    display: inline;   
+    display: inline;
 }
 ol>li {
     padding-top: 40px;
